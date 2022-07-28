@@ -1,0 +1,24 @@
+.result__list__div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+.result__list__div:hover {
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+.result__list__element {
+  padding: 1.8rem 0 1.8rem 2rem;
+  color: #1f1e1e;
+  font-family: "Questrial", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  width: 90%;
+}
+.result__list__icon {
+  color: #464646;
+  font-size: 2rem;
+  transition: all 0.4s;
+}
