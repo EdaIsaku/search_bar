@@ -27,7 +27,9 @@ function Search() {
             return item.title;
           })
           .filter((el) => {
-            if (el.includes(e.target.value.trim())) {
+            if (
+              el.toLowerCase().includes(e.target.value.toLowerCase().trim())
+            ) {
               return el;
             }
             return false;
